@@ -93,6 +93,47 @@ Take a float variable as Fahrenheit by user. Now use formula for Fahrenheit to C
 ## Size of
 
 To print the size of any data types we use ```sizeof()``` operator. But we must remember that to print the size which is a integer variable, format specifier is %d
+## Add Two Complex Numbers
+Complex number has 2 parts. One is the real part and another is imaginary. We can always express imaginary part as i (square root of -1).
+So, we will take 2 real numbers as input and then will follow the sum formula like we did before. As the output we will print i (square root of -1) with along the real number.
+## Print Prime Numbers
+We already wrote code to check the prime number. Now we'll print prime numbers in a fixed range 1 to N. N will be given by the user.
+
+We'll declare a integer variable (flag) with the value 0 like before. Use the nested loop. Inner loop will check if the number is prime or not. If the number is not prime number then the value of the flag will be turned into 1. so, if the number is prime number the value of flag will not change.
+
+When the inner loop ends use if statement. If ```flag==0``` then print the number. After that set the value of flag to it's original value. So that if the value of flag is changed (as the number isn't prime number) it doesn't stay changed, in the inner loop. 
+
+That means, the outer loop will print the number if the value of flag is unchanged.
+## Simple Interest
+
+Let's declare the variebles in data type float.\
+P = Principal Amount\
+I = Simple Interest \
+R = Rate of Interest per year as a percent; R = r * 100\
+t = Time Periods involved (in year)
+
+Follow the formula I = P * r * t
+
+
+
+## Compound Interest
+
+Let's declare the variebles in data type ```float```\
+P = Principal Amount\
+C = Compound Interest\
+R = Rate of Interest per year as a percent; R = r * 100\
+t = Time Periods involved (in year)
+
+Follow the formula C = P(1 + R/100)^t - P
+
+Use ```pow(x,y)``` funtion.
+## Area And Perimeter Of Rectangle
+
+Declare variebles in ```int``` data type.
+
+Follow the formula : \
+Area = length * width\
+Perimeter = 2 * (length + width)
 ## URL
 
 https://www.geeksforgeeks.org/c-programming-examples/
