@@ -5,7 +5,9 @@ C language is the mother language of all programming languages. Understanding an
 
 To be an expert programmer, practicing along with learning is a must. It is the best way to improve.
 
-Their are many websites that can help you to practice and improve your skills to solve problems. This repository contains GeeksforGeeks C Programming Examples (basic). This repository is mainly for beginners. 
+Their are many websites that can help you to practice and improve your skills to solve problems. This repository contains GeeksforGeeks C Programming Examples (basic). Creating a series of repositories for the solutions to GeeksforGeeks C Programming Examples. Check out other repositories if you like.
+
+This repository is mainly for beginners.
 ## Practice problems
 
 * C Hello World Program
